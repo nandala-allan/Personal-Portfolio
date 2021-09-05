@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -16,21 +16,31 @@ body{
 #navbar{
     position: sticky;
     top: -5px;
-    width: 80%;
+    width: 100%; 
     margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
 }
 
 
 
-#navbar .navigation{
+#navbar{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
     background-color: #25262a;
     padding: 20px;
-    height: 80px;
-    width: 100%;   
+    height: 80px;  
 }
 
 
@@ -69,27 +79,27 @@ body{
     
 }
 
-/* .socials{
-    padding: 0px 0px 0px 0px;
-} */
-
 
 .row{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    /* border: 1px red solid; */
+    border: 1px red solid; 
 } 
+
 
 #welcome-section{
     height: 100vh;
 }
 
-#welcome-section .row{
+.welcome-row{
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
+    align-content: stretch;
     padding: 80px 0px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #image img{
@@ -107,9 +117,8 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    /* padding-left: 15px; */
     color: #44948a;
-    margin: 0px 0px 15px 5px;
+    margin: 0px 0px 15px 0px;
     
 }
 
@@ -122,7 +131,7 @@ h1{
 }
 
 .introduction p{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300px;
     padding-top:30px;
 
@@ -130,13 +139,56 @@ h1{
 
 #image{
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
 }
 
-.introduction , #image{
-    /* border: 1px red solid; */
+/* .projects{
+    padding: 80px 0px;
+} */
+.project-heading{
+    width: 90%;
+    margin: 0 auto;
 }
 
+.project-heading h2{
+
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left:10px;
+  
+    
+}
+
+.project-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0px;
+
+}
+
+.project-tile{
+    width: 350px;
+    margin: 10px;
+    background-color: #44948a;
+    border-radius: 10px;
+
+}
+
+.project-tile img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.project-tile h3{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
