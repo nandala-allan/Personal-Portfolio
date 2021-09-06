@@ -8,7 +8,7 @@
 body{
     font-family: 'poppins',sans-serif;
     font-weight: 400,700;
-    background-color: #25262a;
+    background-color: #181f2a;
     color: #fefefe;
 }
 
@@ -38,7 +38,7 @@ body{
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
-    background-color: #25262a;
+    background-color: #181f2a;
     padding: 20px;
     height: 80px;  
 }
@@ -75,7 +75,7 @@ body{
 
 #nav-links li a:hover{
     cursor: pointer;
-    color: #44948a;
+    color:#45958b;
     
 }
 
@@ -106,6 +106,7 @@ body{
 
     width: 80%;
     border-radius: 50%;
+    padding-left: 60px;
 }
 
 
@@ -117,7 +118,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    color: #44948a;
+    color: #45958b;
     margin: 0px 0px 15px 0px;
     
 }
@@ -156,7 +157,7 @@ h1{
     font-size: 60px;
     font-weight: 500;
     margin-bottom: 10px;
-    padding-left:10px;
+    text-align: center;
   
     
 }
@@ -175,8 +176,10 @@ h1{
 .project-tile{
     width: 350px;
     margin: 10px;
-    background-color: #44948a;
+    background-color:#202a3c;
     border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
 
 }
 
@@ -189,6 +192,40 @@ h1{
     padding: 10px;
     font-size: 18px;
     font-weight: 400;
+}
+
+#contact{
+    padding: 50px 0px;
+}
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #202a3c ;
+    border-radius: 15px;
+    height: 300px;
+    
+}
+
+.content{
+    padding: 30px 0px;
+    text-align: center;
+}
+.content h2{
+    font-size: 80px;
+    line-height: 95px;
+    font-weight: 500;
+    
+
+}
+
+.content p{
+    font-size: 30px;
+    font-weight: 300;
+    
 }
 
 
