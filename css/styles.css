@@ -80,11 +80,11 @@ body{
 }
 
 
-.row{
+/* .row{
     width: 90%;
     margin: 0 auto;
     border: 1px red solid; 
-} 
+}  */
 
 
 #welcome-section{
@@ -195,7 +195,7 @@ h1{
 }
 
 #contact{
-    padding: 50px 0px;
+    padding: 80px 0px;
 }
 .contact-row{
     display: flex;
@@ -241,4 +241,35 @@ h1{
     
 }
 
+/* footer */
 
+
+.footer-row{
+    background-color:#202a3c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+
+    
+   
+}
+
+#footer-logo{
+    cursor: pointer
+}
+
+.footer-content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-content ul li{
+    padding: 20px;
+}
+
+
+/* mobile views */
