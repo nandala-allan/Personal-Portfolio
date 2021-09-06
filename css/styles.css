@@ -175,7 +175,7 @@ h1{
 
 .project-tile{
     width: 350px;
-    margin: 10px;
+    margin: 10px 0px;
     background-color:#202a3c;
     border-radius: 10px;
     text-align: center;
@@ -215,7 +215,7 @@ h1{
     text-align: center;
 }
 .content h2{
-    font-size: 80px;
+    font-size: 70px;
     line-height: 95px;
     font-weight: 500;
     
@@ -223,8 +223,21 @@ h1{
 }
 
 .content p{
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 30px;
     font-weight: 300;
+    margin-bottom: 20px;
+    
+}
+
+.contact-btn{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #45958b;
+    color: #fefefe;
     
 }
 
