@@ -79,12 +79,11 @@ body{
     
 }
 
+.socials img{
+    padding: 0px 20px;
+}
 
-/* .row{
-    width: 90%;
-    margin: 0 auto;
-    border: 1px red solid; 
-}  */
+
 
 
 #welcome-section{
@@ -107,7 +106,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px red solid;
 }
 #image img{
 
@@ -193,6 +191,7 @@ h1{
 
 .project-tile img{
     width: 100%;
+    height: auto;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -240,13 +239,19 @@ h1{
 
 .contact-btn{
     font-size: 20px;
+    font-weight: 500;
     margin-top: 10px;
     padding: 20px 60px;
     border-radius: 15px;
     border: none;
-    background-color: #45958b;
+    
+    background-color: #035f54;
     color: #fefefe;
     
+}
+
+.contact-btn:hover{
+    cursor: pointer;
 }
 
 /* footer */
@@ -273,7 +278,15 @@ h1{
 }
 
 .footer-content ul li{
-    padding: 20px;
+    padding: 20px 40px;
+}
+.footer-content li :hover{
+    cursor: pointer;
+}
+
+.footer-content h2{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
@@ -359,6 +372,8 @@ h1{
     
 
 }
+
+
 .contact-btn{
     font-size: 16px;
     margin-top: 10px;
