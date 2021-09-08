@@ -68,6 +68,7 @@ body{
     
 } 
 #nav-links li a{
+    font-size: 18px;
     padding: 0px 25px;
     color: #fefefe;
     text-decoration: none;
@@ -197,7 +198,7 @@ h1{
 
 .project-tile h3{
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -278,7 +279,7 @@ h1{
 }
 
 .footer-content ul li{
-    padding: 20px 40px;
+    padding: 18px 25px;
 }
 .footer-content li :hover{
     cursor: pointer;
@@ -292,7 +293,12 @@ h1{
 
 /* mobile views */
 @media (min-width: 320px) and (max-width:425px){
-
+    .socials{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+   
     #nav-links{
         display: none;
     }
@@ -399,7 +405,72 @@ h1{
 }
 
 
+
+@media(width:768px){
+
+    #nav-links{
+        padding: 0 40px;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+   
+   
+    #name{
+        font-size: 16px;
+        margin: 0;
+    }
+    .introduction h1{
+        font-size: 55px;
+        line-height: 56px;
+    }
+
+    .introduction p{
+        font-size: 18px;
+        padding: 15px 0 0 0;
+    }
+
+
+    .project-heading h2{
+        font-size: 30px;
+    }
+
+    .content h2{
+        font-size: 50px;
+        line-height: 66px;
+    }
+    .content p{
+        margin: 0 0 10px 0;
+        padding: 0;
+
+    }
+
+    .contact-btn{
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1440px){
+    .socials{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+   
+    .introduction{
+        padding: 20px 0;
+    }
+    #image{
+        align-items: flex-end;
+    }
+
+    #image img{
+        margin: 0;
+        width: 70%;
+    }
     .project-row{
         display: flex;
         flex-direction: row;
@@ -413,6 +484,8 @@ h1{
         width: 300px;
         margin: 10px;
     }
+
+
     
 }
 
@@ -429,3 +502,25 @@ h1{
         margin: 20px;
     }
 } 
+
+@media(width:2560px){
+    
+    #welcome-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #name{
+        font-size: 35px;
+    }
+    .introduction h1{
+        font-size: 180px;
+        line-height: 198px;
+    }
+
+    .introduction p{
+        font-size: 50px;
+        padding: 60px 0 0 0;
+    }
+}
