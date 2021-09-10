@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+a{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color:#45958b;
+}
+
 
 body{
     font-family: 'poppins',sans-serif;
@@ -52,7 +62,7 @@ body{
 }
 
 #logo{
-    /* padding: 15px 0px 15px 0px; */
+
     cursor: pointer;
 }
 
@@ -70,13 +80,6 @@ body{
 #nav-links li a{
     font-size: 18px;
     padding: 0px 25px;
-    color: #fefefe;
-    text-decoration: none;
-}
-
-#nav-links li a:hover{
-    cursor: pointer;
-    color:#45958b;
     
 }
 
@@ -84,6 +87,10 @@ body{
     padding: 0px 20px;
 }
 
+
+
+
+  
 
 
 
@@ -181,7 +188,6 @@ h1{
 }
 
 .project-tile{
-    width: 350px;
     margin: 20px;
     background-color:#202a3c;
     border-radius: 10px;
@@ -293,14 +299,36 @@ h1{
 
 /* mobile views */
 @media (min-width: 320px) and (max-width:425px){
+   
+   #logo{
+       width: 60px;
+       height: auto;
+       position: relative;
+       right: 30px;
+   }
+   
     .socials{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        display: none;
+        
     }
    
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0;
+    }
+
+
     #nav-links{
-        display: none;
+        padding:0;
+    }
+
+    #nav-links li a{
+        font-size: 16px;
+        padding: 10px;
     }
     
     #welcome-section{
