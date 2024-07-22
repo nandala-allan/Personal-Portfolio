@@ -176,6 +176,14 @@ h1{
     
 }
 
+.project-heading-cta h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
 .project-row{
     display: flex;
     flex-direction: row;
